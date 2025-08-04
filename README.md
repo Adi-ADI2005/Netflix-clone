@@ -7,4 +7,4 @@ No backend or streaming functionality is included — it's just a front-end temp
 Perfect for learning React basics, component structure, and styled layouts.
 
    ![Alt text](netflix.png) 
-   [Link Text](https://nneetflixx.netlify.app/) 
+   [Netflix ](https://nneetflixx.netlify.app/) 
