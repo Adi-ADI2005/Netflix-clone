@@ -1,0 +1,70 @@
+.navigation {
+    background-color: #000000;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.language-bg {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 150px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.language {
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.language option {
+    background-color: #000000;
+    color: white;
+}
+
+.navigation .signin-btn {
+    background-color: #E50914;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #E50914;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .language {
+        width: 80px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .language-bg {
+        width: 120px;
+    }
+
+    .navigation .signin-btn {
+        width: 80px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .navigation .netflix-logo {
+        width: 75% !important;
+    }
+
+    .navigation {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
